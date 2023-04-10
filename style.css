@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #E0D8B0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #CE9461;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.a {
+    background-color:#DDBD93;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prix {
+
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.a h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+input {
+   height: 30px;
+   margin: 30px 0 0 0 ;
+   display: flex;
+   place-items: center;
+    
+}
+
+button {
+    height: 30px;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.b {
+    display: grid;
+    place-items: center;
+
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 80%;
+    gap: 8px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+form > * {
+    flex: 1 0 250px;
+}
+
+form > button {
+    flex-basis: 100%;
+}
+.b-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+#instructions {
+    color: white;
+    display: grid;
+    place-items: center;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  .plus {
+    background-color: #B42E2E;
+    font-family: 'Pacifico', cursive;
+    border: 30px;
+    border-radius: 10px;
+    width: 700px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    display: grid;
+    place-items: left;
+    align-items: center
+  }
+  
+  .moins {
+    background-color: #1C1C55;
+    font-family: 'Pacifico', cursive;
+    border: 30px;
+    border-radius: 10px;
+    width: 700px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    display: grid;
+    place-items: left;
+    align-items: center;
+  }
+  
+  .justeprix{
+    background-color :#009728;
+    border: 30px;
+    border-radius: 10px;
+    width: 700px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-family: 'pacifico',normal;
+    display: grid;
+    place-items: left;
+    align-items: center;
+  }
